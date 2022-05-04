@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+body{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+ width: 100%;
+ font-family:Satisfy ;
+}
+
+section{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*-------navbar--------*/
+
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+.bold{
+    font-size: 25px;
+  
+
+}
+
+
+li{
+    padding: 5px;
+
+}
+
+.nav-link{
+    font-size:15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+border-bottom: 2px solid blue;
+transition:.1s;
+}
+
+
+
+
+
+/*-------Home------*/
+
+
+span{
+  color: blue;
+  font-weight: bold;
+}
+
+
+#home img{
+    border-radius: 50px;
+}
+#home p{
+    font-size: 13px;
+    animation:type 3s steps(50);
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: cursive;
+    border-right: 4px solid black;
+    width:50ch ;
+}
+
+@keyframes type{
+    0%{
+        width:0ch;
+    }
+    100%{
+        width: 50ch;
+    }
+}
+
+
+
+/*--------Education----------*/
+
+#education img{
+width:25rem;
+height:25rem;
+border-radius: 50px;
+
+}
+
+
+/*--------Qualification----------*/
+
+
+.card img{
+height: 200px;
+transition: 1s;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.card img:hover{
+transform: scale(1.5);
+transition: 1s;
+}
+
+
+/*--------Personal Info----------*/
+#personalinfo img{
+ border-radius: 60px;
+}
+
+
+
+
+
+/*--------Contact----------*/
+
+form{
+    padding: 40px;
+    box-shadow:2px 2px 5px rgba(0,0,0,.2),  -1px -1px 5px rgba(0,0,0,.05) ;
+    border-radius: 30px;
+}
+
+#contact{
+    background-color: lightcyan;
+}
+
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: olive;
+    box-shadow: 30px;
+}
+
+.refer{
+    color: olivedrab;
+}
+
+
+/*---ex--
+
+
+.card{width: 24rem;
+    background: green;
+box-shadow: 0,0 15px;
+border-radius: 10px;}
+
+
+
+
+.card-body{padding: 10px 20px;}
+.card-body p{color: antiquewhite;
+font-weight: bolder;}
+
+.card-body button{
+    outline: none;
+    padding: 10px 15px;
+    font-weight: bolder;
+}
+
+#more{
+    display: none;
+
+
+
+*/
+
+
+
+
